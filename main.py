@@ -5,7 +5,7 @@ import menus
 import modif_table
 #Déclaration variables
 choix_ok = False
-tab_total = []
+tab_total = [['test', 'test']]
 select_modif_table = 0
 select_modif_ok = False
 
@@ -17,4 +17,4 @@ choix = menus.menu()
 if(choix == 1):
   print("1")
 elif(choix == 2):
-  modif_table.modif()
+  modif_table.modif(tab_total)
