@@ -4,6 +4,7 @@ import time
 import menus
 import modif_table
 #Déclaration variables
+CODECOV_TOKEN="2063f85f-f0e1-41fa-8cce-d7497087f789"
 choix_ok = False
 tab_total = [['test', 'test']]
 select_modif_table = 0
